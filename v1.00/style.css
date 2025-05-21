@@ -1,0 +1,38 @@
+* {
+    //cursor: url("img/flying.gif"), pointer;
+}
+
+body {
+    background-color: #c2beae;
+}
+
+nav {
+    padding: 20px;
+    text-align: end;
+    width: 100vw;
+}
+
+nav .nav-link:visited,nav .nav-link {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #32312d;
+    background-color: #5d5b54;
+    transition: 0.5s;
+    text-align: center;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+nav .nav-link:hover {
+    background-color: white;
+    color: #8d8a7f;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: white;
+}
