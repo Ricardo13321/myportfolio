@@ -1,0 +1,153 @@
+:root {
+  --PinkA: #AC3981;
+  --PinkB: #F87DCF;
+  --PinkC: #FCC2F3;
+  --PinkD: #DD4F9A;
+  --grayA: #32312d;
+  --grayB: #5d5b54;
+  --grayC: #8d8a7f;
+  --godot-light: rgb(191, 239, 255);
+  --godot-medium: rgb(48, 80, 112);
+  --godot-dark: rgb(48, 61, 79);
+  --beecrowd-purple: rgb(169, 87, 190);
+  --beecrowd-purple-dark: rgb(121, 41, 151)
+}
+
+body {
+    background-color: var(--PinkC);
+}
+
+nav {
+    padding: 20px;
+    text-align: end;
+    width: 100vw;
+}
+
+nav .nav-link:visited,nav .nav-link {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid var(--grayA);
+    background-color: var(--grayB);
+    transition: 0.5s;
+    text-align: center;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+nav .nav-link:hover {
+    background-color: white;
+    color: var(--grayC);
+    transition: 0.5s;
+}
+
+footer {
+    background-color: white;
+}
+
+/* From Uiverse.io by arthur_6104 */ 
+.box-button {
+  cursor: pointer;
+  border: 4px solid black;
+  background-color: var(--PinkD);
+  padding-bottom: 10px;
+  transition: 0.1s ease-in-out;
+  user-select: none;
+  width: 130px;
+}
+
+.card-pink-box{
+  background-color: var(--PinkA);
+  border-radius: 0;
+}
+
+.button {
+  background-color: var(--PinkB);
+  border: 4px solid var(--PinkC);
+  padding: 3px 8px;
+}
+
+.button span {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.box-button:active {
+  padding: 0;
+  margin-bottom: 10px;
+  transform: translateY(10px);
+}
+
+.button a {
+    text-decoration: none;
+    color: var(--Pink);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.84);
+  margin: 20px;
+  border: 1px solid black;
+}
+
+
+/* Aqui é onde eu mudo o container que é responsável pelos coiso do github */
+
+.container-github {
+  border-radius: 5;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+}
+
+.cotainer-godot {
+  color: var(--godot-light);
+  background-color: var(--godot-dark);
+}
+
+.h-godot {
+  background-color: var(--godot-medium);
+  color: var(--godot-light);
+}
+
+.body-beecrowd {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.card-beecrowd {
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-beecrowd {
+  background-color: var(--beecrowd-purple);
+  color: white;
+}
+
+.btn-beecrowd:hover {
+  background-color: var(--beecrowd-purple-dark);
+  color: white;
+}
+
+.font-beecrowd {
+  color: var(--beecrowd-purple-dark);
+}
+
+.bd-0 {
+  border-radius: 0%;
+}
+
+.card-header-trabai {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.card-body-trabai {
+  background-color: black;
+  color: #d4c600;
+}
